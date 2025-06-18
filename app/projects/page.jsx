@@ -7,22 +7,39 @@ import { BsArrowUpRight, BsGithub } from 'react-icons/bs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 import Link from "next/link"
 import Image from "next/image"
-import { Description } from "@radix-ui/react-dialog"
 import WorkSlideBtns from "@/components/WorkSlideBtns"
 
 
 const projects = [
 
+
+
     {
         num: '01',
-        category: "frontend",
+        category: "Frontend",
+        title: "project 3",
+        description: `Paws&Claws is a pet-focused web application where users can sell or offer animals for adoption.
+         It also allows showcasing pet care products and features a section for veterinary doctors.
+          Additionally, the platform includes a real-time chat feature that enables users to communicate with each other.
+           Every user has a personal account that contains editable profile information at any time.
+
+`,
+        stack: [{ name: "React.js" }, { name: "Tailwind" }, { name: "Redux" }, { name: "ReactQuery" }, { name: "Node.js" }, { name: "Express.js" }, { name: "Socket.io" },],
+        image: '/assets/work/thumb3.png',
+        live: "https://paws-claws0.netlify.app/",
+        gitgub: "https://github.com/PawsAClaws",
+
+    },
+
+    {
+        num: '02',
+        category: "Frontend",
         title: "project 1",
-        description: ` The graduation project for Route Academy Front-End track, which is a full e-commerce
-web application using React.js,
- This project’s state management was achieved using only ContextAPI to leverage its
+        description: `The graduation project for Route Academy Front-End track, which is a full e-commerce
+   web application using React.js,
+    This project’s state management was achieved using only ContextAPI to leverage its
 potentials to the max,
-A real-world payment gateway (Stripe) was implemented in this project.
-`
+A real-world payment gateway (Stripe) was implemented in this project`
         ,
         stack: [{ name: "React.js" }, { name: "Bootstrap" },],
         image: '/assets/work/thumb1.png',
@@ -33,8 +50,8 @@ A real-world payment gateway (Stripe) was implemented in this project.
 
 
     {
-        num: '02',
-        category: "frontend",
+        num: '03',
+        category: "Frontend",
         title: "project 2",
         description: "Built a movies app using React.js , Tailwind and  tmdb api,•	Movies app that display movies and tv shows With nice ui",
         stack: [{ name: "React.js" }, { name: "Tailwind" }, { name: "Redux" },],
@@ -42,17 +59,14 @@ A real-world payment gateway (Stripe) was implemented in this project.
         live: "https://mohamednabil720.github.io/Movies-App/",
         gitgub: "https://github.com/MohamedNabil720/Movies-App",
 
-    },
+    }
+
+
 
 
 
 
 ]
-
-
-
-
-
 
 
 const Projects = () => {
@@ -81,10 +95,10 @@ const Projects = () => {
 
                             <p className="text-white/60"> {project.description} </p>
 
-                            <ul className="flex gap-4">
+                            <ul className="flex gap-4 flex-wrap">
                                 {project.stack.map((item, index) => {
                                     return (
-                                        <li key={index} className="text-xl text-accent-default">
+                                        <li key={index} className="text-xl text-accent-default ">
                                             {item.name}
                                             {index !== project.stack.length - 1 && ","}
                                         </li>

@@ -37,7 +37,7 @@ export default function Home() {
                 variant="outline"
                 size="lg"
                 className=" uppercase flex items-center gap-2">
-                <Link target="_blank" href="https://drive.google.com/file/d/1GdfKb3wfJGwWynFkSDAJVTtmi3L8_rhr/view" > Download Cv </Link>
+                <Link target="_blank" href="https://drive.google.com/file/d/1oT6bEv4S1MvkDV2bqO4JwnSjY8DFGAxr/view?usp=drive_link" > Download Cv </Link>
                 <FiDownload className="text-xl" />
               </Button>
 
