@@ -16,7 +16,7 @@ const projects = [
 
     {
         num: '01',
-        category: "Frontend",
+        category: "Full Stack",
         title: "project 3",
         description: `Paws&Claws is a pet-focused web application where users can sell or offer animals for adoption.
          It also allows showcasing pet care products and features a section for veterinary doctors.
@@ -33,7 +33,7 @@ const projects = [
 
     {
         num: '02',
-        category: "Frontend",
+        category: "Full Stack",
         title: "project 1",
         description: `The graduation project for Route Academy Front-End track, which is a full e-commerce
    web application using React.js,
@@ -41,7 +41,7 @@ const projects = [
 potentials to the max,
 A real-world payment gateway (Stripe) was implemented in this project`
         ,
-        stack: [{ name: "React.js" }, { name: "Bootstrap" },],
+        stack: [{ name: "React.js" }, { name: "Redux" }, { name: "Node.js" }, { name: "Express.js" }, { name: "MongoDB" },],
         image: '/assets/work/thumb1.png',
         live: "https://mohamednabil720.github.io/E-Commerce/",
         gitgub: "https://github.com/MohamedNabil720/E-Commerce",
