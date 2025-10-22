@@ -12,7 +12,7 @@ import { motion } from "framer-motion"
 
 const about = {
     title: 'about me',
-    Description: `Hello! I'm Mohamed Nabil, a passionate and dedicated Full-Stack web developer With two years of experience in the field I specialize in creating dynamic, user-friendly web interfaces that enhance the user experience. My journey in full-stack development has allowed me to work on a variety of exciting projects, where I've honed my skills in HTML, CSS, JavaScript, and modern frameworks like React, Next.js, and Node.js. I thrive in collaborative environments and am always eager to learn and adapt to new technologies. When I'm not coding, I enjoy exploring the latest trends in web development and contributing to open-source projects. Let's connect and create something amazing together!`,
+    Description: `Hello! I'm Mohamed Nabil, a passionate and dedicated Front-end developer With two years of experience in the field I specialize in creating dynamic, user-friendly web interfaces that enhance the user experience. My journey in front-end development has allowed me to work on a variety of exciting projects, where I've honed my skills in HTML, CSS, JavaScript, and modern frameworks like React and Next.js I thrive in collaborative environments and am always eager to learn and adapt to new technologies. When I'm not coding, I enjoy exploring the latest trends in web development and contributing to open-source projects. Let's connect and create something amazing together!`,
 
     info: [
         {
